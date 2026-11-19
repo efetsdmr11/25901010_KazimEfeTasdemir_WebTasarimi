@@ -52,3 +52,33 @@ tanitim-sayfasi/
     │   └── main.js
     └── img/
         └── profil.jpg
+```
+
+---
+
+## 7. Teslim Formatı
+- Şartnameye uygun olarak ALMS'ye yüklenecek arşiv dosyası adı:
+  **`25901010_KazimEfeTasdemir.zip`**
+  (Türkçe karakter ve boşluk kullanılmamıştır; içinde `tanitim-sayfasi` klasörü yer almaktadır).
+
+---
+
+## 8. Sunum ve Sözlü Soru Hazırlık Rehberi (3 Dakikalık Canlı Gösterim)
+
+### Canlı Gösterim Adımları:
+1. **Bölümler ve Menü:** Navigasyon menüsündeki "Hakkımda", "Eğitim ve Beceriler", "İletişim" linklerine tıklayarak ilgili bölümlere kaydığını ve okul harici bağlantısının yeni sekmede açıldığını gösterin.
+2. **Görsel ve Tablo:** Profil görselini ve 3 sütunlu / 3 veri satırlı yetkinlik tablosunu gösterin.
+3. **Tema Düğmesi:** "Koyu Tema" butonuna tıklayarak renklerin koyu temaya geçtiğini ve buton metninin "Açık Tema" olduğunu; tekrar tıklayınca eski haline döndüğünü gösterin.
+4. **Form Doğrulaması:**
+   - Alanlar boşken "Gönder" butonuna basın -> Ekranda `"Lütfen tüm alanları eksiksiz doldurunuz."` uyarısı çıkar.
+   - E-posta alanına `@` içermeyen bir metin yazıp basın -> Ekranda `"Geçerli bir e-posta yazın."` uyarısı çıkar.
+   - Tüm alanları doğru doldurup basın -> `"Teşekkürler, [Ad Soyad], mesajınız alındı."` mesajı çıkar ve form temizlenir.
+5. **Duyarlı (Responsive) Görünüm:** Tarayıcı geliştirici araçlarını açıp (F12) pencere genişliğini 600px altına çekin; menünün dikey dizildiğini, hiçbir yatay kaydırma çubuğunun oluşmadığını gösterin.
+
+### Olası Sözlü Sorular ve Yanıtları:
+- **Soru 1: HTML, CSS ve JavaScript'in bu sayfadaki rolleri nelerdir?**
+  - **HTML:** Sayfanın iskeletini ve anlamsal (semantik: header, nav, main, section, footer vb.) yapısını oluşturur, içerikleri düzenler.
+  - **CSS:** Sayfanın görsel tasarımını, renklerini, yazı tiplerini, Flexbox/Grid yerleşimlerini ve mobil uyumlu duyarlı (responsive) kurallarını belirler.
+  - **JavaScript:** Sayfaya etkileşim kazandırır; form verilerini denetler, sayfa yenilenmeden uyarıları ekrana yazar ve tek tıklamayla koyu tema geçişini sağlar.
+- **Soru 2: Kodunuzdaki bir satır veya kuralın işlevi nedir?**
+  - Tüm CSS kural bloklarının ve JavaScript kodlarının her satırında Türkçe açıklamalar mevcuttur; sunum anında gösterilecek satır bu açıklamalar yardımıyla kolayca açıklanabilir.
